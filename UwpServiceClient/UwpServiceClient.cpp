@@ -10,8 +10,8 @@ int main(){
     winrt::init_apartment();
 
     AppServiceConnection connection;
-    connection.AppServiceName(L"ARG0");
-    connection.PackageFamilyName(L"ARG1");
+    connection.AppServiceName(L"com.lproger.example");
+    connection.PackageFamilyName(L"UwpService_qv9wcjbtg4mzy");
 
     auto connectionStatus = connection.OpenAsync().get();
 
